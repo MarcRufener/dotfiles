@@ -48,5 +48,4 @@ feh --bg-scale ~/Pictures/bg.png &
 ~/./.lemon.py &
 sxhkd -f 100 &
 setxkbmap -option caps:none &
-stalonetray &
-compton
+compton &

@@ -1,6 +1,7 @@
 #!/bin/sh
 mkdir -p ~/.config
 ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.stalonetrayrc ~/.stalonetrayrc
 ln -s ~/dotfiles/.byobu ~/.byobu
 ln -s ~/dotfiles/.gitconfig ~/.gitconfig
 ln -s ~/dotfiles/htop ~/.config/

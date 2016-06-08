@@ -14,7 +14,7 @@ Caps_Lock
 
 # LAUNCHERS
 
-F3
+shift + F3
 	sh ~/.toggle.sh
 
 Sys_Req
@@ -51,7 +51,7 @@ alt + m
 alt + q
 	bspc node focused -c
 
-alt + {z,t,f}
+alt + {x,t,f}
 	bspc node focused -t {floating,tiled,fullscreen}
 
 super + {a,s,w,d}

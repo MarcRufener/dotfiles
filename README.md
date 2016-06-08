@@ -1,7 +1,5 @@
 # Dotfiles
 
-<img src='scrot.png'>
+<img src='main.png'>
 
 <img src='code.png'>
-
-<img src='rofi.png'>

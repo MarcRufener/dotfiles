@@ -54,10 +54,10 @@ alias dr='dmd -run'
 alias dc='dmd'
 alias dcr='dmd -O -release -inline -boundscheck=off'
 alias arduinorun='arduino --upload'
-alias open='xdg-open'
 alias lol='nvidia /usr/share/playonlinux/playonlinux --run "League of Legends"'
 alias hs='nvidia /usr/share/playonlinux/playonlinux --run "Hearthstone"'
 alias poe='nvidia /usr/share/playonlinux/playonlinux --run "Path of Exile"'
+alias wow='nvidia wine ~/Downloads/WoW/wow.exe'
 
 bindkey '\e[3~' delete-char  # del
 bindkey ';5D' backward-word  # ctrl+left

@@ -25,7 +25,7 @@ VOLUME  = ""
 WIFI    = ""
 
 def run(arg):
-  return subprocess.Popen(arg, stdout=subprocess.PIPE).stdout.read().decode(encoding="UTF-8")
+  return subprocess.Popen(arg, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.read().decode(encoding="UTF-8")
 
 def get_time():
   raw = run("date")[:15]

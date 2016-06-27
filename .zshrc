@@ -12,20 +12,23 @@ compinit
 
 eval $(dircolors ~/.dircolors)
 autoload -U pick-web-browser
+
 alias -s {go,txt,cfg,c,cpp,rb,asm,nim,conf}=subl3
 alias -s {avi,mpeg,mpg,mov,m2v}=mplayer
 alias -s {html,htm}=chromium
 alias -s {png,jpg,gif,svg}=viewnior
+
 alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias ll='ls -lah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias la='ls -ah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias cp='cp -i'
 alias df='df -h'
-alias dotfiles='~/dotfiles/'
-alias nvidia='vblank_mode=0 optirun -b primus'
-alias unlock='sudo rm /var/lib/pacman/db.lck'
 alias free='free -m'
-alias grep='grep --colour=auto'
+alias grep='grep --colour=always'
+alias rm='rm -rf'
+alias unlock='sudo rm /var/lib/pacman/db.lck'
+alias feh='feh -q -g 1880x980 --scale-down --auto-zoom'
+
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
@@ -34,8 +37,7 @@ alias gpl='git pull origin'
 alias gd='git diff'
 alias gr='git rm'
 alias gl='git lg'
-alias wiki='wiki-search' # arch-wiki-lite
-alias rm='rm -rf'
+
 alias S='sudo pacman -S'
 alias Sc='echo "\n" | sudo pacman -Sc'
 alias Ss='sudo pacman -Ss'
@@ -47,13 +49,15 @@ alias Rsc='sudo pacman -Rsc'
 alias aS='yaourt -S'
 alias aSs='yaourt -Ss'
 alias pgp='gpg --recv-key'
-alias feh='feh -q -g 1500x800 --scale-down --auto-zoom'
+
+alias dotfiles='~/dotfiles/'
 alias pycode='~/Documents/Python/'
 alias dcode='~/Documents/D/'
-alias dr='dmd -run'
-alias dc='dmd'
-alias dcr='dmd -O -release -inline -boundscheck=off'
-alias arduinorun='arduino --upload'
+
+alias g='googler '
+alias wiki='wiki-search' # arch-wiki-lite
+
+alias nvidia='vblank_mode=0 optirun -b primus'
 alias lol='nvidia /usr/share/playonlinux/playonlinux --run "League of Legends"'
 alias hs='nvidia /usr/share/playonlinux/playonlinux --run "Hearthstone"'
 alias poe='nvidia /usr/share/playonlinux/playonlinux --run "Path of Exile"'

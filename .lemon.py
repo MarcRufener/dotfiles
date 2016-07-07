@@ -104,8 +104,8 @@ def stats():
   if state == "1":
     space   = "  "
     offset  = " " * 30
-    rawmem  = run(["free", "-m"]).splitlines()[1]
-    mem     = int(rawmem[26:32])
+    rawmem  = run(["free", "-hm"]).splitlines()[1]
+    mem     = rawmem[26:32]
     cpuraw  = run(["top", "-bn2", "u1"]).splitlines()[13:17]
     cpu     = 0
     for c in cpuraw: cpu += int(c[c.find(":")+1:c.find(".")])

@@ -23,7 +23,7 @@ alias ll='ls -lah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --col
 alias la='ls -ah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias cp='cp -i'
 alias df='df -h'
-alias free='free -m'
+alias free='free -hm'
 alias grep='grep --colour=always'
 alias rm='rm -rf'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
@@ -53,13 +53,15 @@ alias pgp='gpg --recv-key'
 alias dotfiles='~/dotfiles/'
 alias pycode='~/Documents/Python/'
 alias dcode='~/Documents/D/'
+alias acode='~/Documents/Android/'
 
 alias g='googler '
 alias wiki='wiki-search' # arch-wiki-lite
+alias calc='python -c "print(eval(input()))"'
 
 alias nvidia='vblank_mode=0 optirun -b primus'
 alias lol='nvidia /usr/share/playonlinux/playonlinux --run "League of Legends"'
-alias hs='nvidia /usr/share/playonlinux/playonlinux --run "Hearthstone"'
+alias hs='/usr/share/playonlinux/playonlinux --run "Hearthstone"'
 alias poe='nvidia /usr/share/playonlinux/playonlinux --run "Path of Exile"'
 alias wow='nvidia wine ~/Downloads/WoW/wow.exe'
 

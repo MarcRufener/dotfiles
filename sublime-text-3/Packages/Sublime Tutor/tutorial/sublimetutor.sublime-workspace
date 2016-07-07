@@ -363,6 +363,7 @@
 	},
 	"expanded_folders":
 	[
+		"/home/hacked/dotfiles/sublime-text-3/Packages/Sublime Tutor/tutorial"
 	],
 	"file_history":
 	[
@@ -1350,12 +1351,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/Documents/D/vk/source/untitled.sublime-workspace"
+			]
 		],
-		"width": 0.0
+		"width": 380.0
 	},
 	"select_symbol":
 	{
@@ -1377,7 +1382,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":

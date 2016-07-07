@@ -1,4 +1,29 @@
-[{
+[
+{
+    "Title": "Neon Dark",
+    "FileName": "NeonDark.tmTheme",
+    "Author": "Jack Doyle",
+    "Description": "A punchy yet simple dark neon theme."
+},
+{
+    "Title": "Sister Tardis",
+    "FileName": "SisterTardis.tmTheme",
+    "Author": "@sayhellotovanessa",
+    "Description": "Based on the BBC show, Dr.Who."
+},
+{
+    "Title": "Art School",
+    "FileName": "ArtSchool.tmTheme",
+    "Author": "irstacks",
+    "Description": "Theme developed primarily for front-end work with JS. Uses Sass. Shoulda joined the Marines instead."
+},
+{
+    "Title": "Gedit",
+    "FileName": "Gedit.tmTheme",
+    "Author": "Aron Wouters",
+    "Description": "Gedit look alike theme for sublime text"
+},
+{
     "Title": "bashling",
     "FileName": "bashling.tmTheme",
     "Author": "lingTalfi",
@@ -29,6 +54,12 @@
     "Description": "A port of the Seafoam Pastel theme, originally for iTerm2. Easy on the eyes. https://github.com/unforswearing/seafoam-pastel-theme"
 },
 {
+    "Title": "Purple Haze",
+    "FileName": "PurpleHaze.tmTheme",
+    "Author": "Branko Tomić – klomontes",
+    "Description": "Custom dark theme for those who love purple. Contrast was adjusted to be easy for your eyes ad it makes your switch from Monokai easy."
+},
+{
     "Title": "Feel Good",
     "FileName": "feel_good.tmTheme",
     "Author": "seanwooj",
@@ -49,7 +80,12 @@
     "FileName": "Hammer.tmTheme",
     "Author": "Jared Christensen",
     "Description": "A Dark theme focused on front end languages. Based off of the Bespin theme fond in Notepad ++"
-},{
+}, {
+    "Title": "Henanigans",
+    "FileName": "Henanigans.tmTheme",
+    "Author": "Alex Braun",
+    "Description": "Henanigans theme for Sublime.  Theme available for iPython Notebook, Stylish, iTerm and others."
+}, {
     "Title": "Daguiheso",
     "FileName": "Daguiheso.tmTheme",
     "Author": "Daniel Hernandez",
@@ -555,6 +591,11 @@
     "Author": "",
     "Description": ""
 }, {
+    "Title": "Late Night",
+    "FileName": "Late_Night.tmTheme",
+    "Author": "YemSalat",
+    "Description": "A dark theme for better readablility"
+}, {
     "Title": "Lava",
     "FileName": "Lava.tmTheme",
     "Author": "",
@@ -569,6 +610,11 @@
     "FileName": "MagicWB_Amiga.tmTheme",
     "Author": "Allan Odgaard",
     "Description": ""
+}, {
+    "Title": "Material",
+    "FileName": "Material.tmTheme",
+    "Author": "Bernardo Anderson",
+    "Description": "A modified Material theme based on equinusocio's original"
 }, {
     "Title": "Mcedit",
     "FileName": "Mcedit.tmTheme",
@@ -1227,6 +1273,11 @@
     "Author": "Dayle Rees.",
     "Description": ""
 }, {
+    "Title": "Mars Peacock",
+    "FileName": "MarsPeacock.tmTheme",
+    "Author": "Odepax",
+    "Description": "A dark contrasted syntax color scheme for Sublime Text. Inspired by Peacock theme."
+}, {
     "Title": "peel",
     "FileName": "peel.tmTheme",
     "Author": "Dayle Rees.",
@@ -1369,6 +1420,11 @@
     "Author": "Tomek Wiszniewski",
     "Description": "Downright minimal."
 }, {
+    "Title": "Ascetic-Night",
+    "FileName": "Ascetic-Night.tmTheme",
+    "Author": "Dmitry Pinchukov",
+    "Description": "Night variant of Ascetic: inverted and slightly tuned colors. Credits to Tomek Wiszniewski for the original theme."
+}, {
     "Title": "Resesif",
     "FileName": "Resesif.tmTheme",
     "Author": "Nick Eddy",
@@ -1409,5 +1465,178 @@
     "FileName": "Wildlife-Night.tmTheme",
     "Author": "Taiwo Kareem",
     "Description": "A vibrant dark color scheme with support for over 75 languages, gitgutter and sublime linter"
+},
+{
+    "Title": "Meteor",
+    "FileName": "Meteor.tmTheme",
+    "Author": "Alex King",
+    "Description": "A bright theme inspired by the Artwork Meteor by Nina Geometrieva. Best Paired with the Flatron theme."
+},{
+    "Title": "santojon",
+    "FileName": "santojon.tmTheme",
+    "Author": "Jonathan Santos",
+    "Description": "A theme to keep it clean. And vibrant. And light."
+},
+{
+    "Title": "santojon dark",
+    "FileName": "santojon-dark.tmTheme",
+    "Author": "Jonathan Santos",
+    "Description": "A theme to keep it clean. And vibrant. But dark."
+},
+{
+    "Title": "LightBulb",
+    "FileName": "LightBulb.tmTheme",
+    "Author": "@rselwyn",
+    "Description": "A dark theme with bright offset colors."
+},
+{
+    "Title": "Hacker",
+    "FileName": "Hacker.tmTheme",
+    "Author": "@rselwyn",
+    "Description": "A dark background with bright green, red, and blue code highlighting."
+},
+{
+    "Title": "Better JS",
+    "FileName": "Better_JS.tmTheme",
+    "Author": "Arkadiusz Wieczorek",
+    "Description": "A theme for better highlighting JavaScript syntax. https://github.com/debian-sh"
+},
+{
+    "Title": "New Day",
+    "FileName": "New-Day.tmTheme",
+    "Author": "Luca Reghellin",
+    "Description": "A light theme, prepared for html, scss, javascript, php, jade, smarty"
+},
+{
+    "Title": "Monokai Dev",
+    "FileName": "Monokai-Dev.tmTheme",
+    "Author": "Maximiliano Canellas",
+    "Description": "A Monokai Contrast based theme for programmers"
+},
+{
+    "Title": "Poppins",
+    "FileName": "Poppins.tmTheme",
+    "Author": "Praveen Puglia",
+    "Description": "A light theme with popping colors for razor sharp clarity."
+},
+{
+    "Title": "Legacy Pack",
+    "FileName": "LegacyPack.tmTheme",
+    "Author": "Ryan Pack",
+    "Description": "A Sublime Text theme based off of TronLegacy."
+},
+{
+    "Title": "VivoSub",
+    "FileName": "VivoSub.tmTheme",
+    "Author": "Victor Volle",
+    "Description": "A dark theme with muted colours and little variation"
+},
+{
+    "Title": "Into the Dark",
+    "FileName": "Into-the-Dark.tmTheme",
+    "Author": "Ben de Castro",
+    "Description": "Based on the 'Tomorrow Night' Theme"
+},
+{
+    "Title": "Earthworm",
+    "FileName": "Earthworm.tmTheme",
+    "Author": "Dave Tate",
+    "Description": "Dark color scheme, low-contrast, natural tones."
+},
+{
+    "Title": "Cake",
+    "FileName": "Cake.tmTheme",
+    "Author": "Daniel Pintilei",
+    "Description": "Yummy syntax theme. https://danielpintilei.cf/Cake"
+},
+{
+    "Title": "GitHub v2",
+    "FileName": "Github-v2.tmTheme",
+    "Author": "Consigliere",
+    "Description": "Github color scheme version 2"
+},
+{
+    "Title": "Solarized Dark (Nitrous.io version)",
+    "FileName": "Solarized-dark-Nitrous.io.tmTheme",
+    "Author": "Consigliere",
+    "Description": "Solarized Dark theme used in Nitrous.io"
+},
+{
+    "Title": "DarkMosquito Color Scheme",
+    "FileName": "DarkMosquito.tmTheme",
+    "Author": "Giovane de Oliveira",
+    "Description": "A dark color scheme for Sublime Text, the colors are based on Google Chrome Dev Tools (Default Dark Theme). https://github.com/Mosquito13/DarkMosquito-Color-Scheme"
+},
+{
+    "Title": "Humble Night",
+    "FileName": "Humble.tmTheme",
+    "Author": "weop",
+    "Description": "A minimalistic dark color theme that's easy on the eyes."
+},
+{
+    "Title": "Monokai Charcoal",
+    "FileName": "Monokai-Charcoal.tmTheme",
+    "Author": "Luka Kotar",
+    "Description": "A Monokai theme with a near-black purple background and a soft orange selection color."
+},
+{
+    "Title": "Toothpaste",
+    "FileName": "toothpaste.tmTheme",
+    "Author": "Cat Noone",
+    "Description": "A custom editor theme with flavorful colors that pop and are muted where necessary. https://github.com/imcatnoone/toothpaste"
+},
+{
+    "Title": "Candy_Brights",
+    "FileName": "Candy_Brights.tmTheme",
+    "Author": "fullerenedream",
+    "Description": "Candy Land modified to have some more saturated colors. https://github.com/fullerenedream/sublime-themes/blob/master/Candy_Brights.tmTheme"
+},
+{
+    "Title": "FluoroMachine",
+    "FileName": "FluoroMachine.tmTheme",
+    "Author": "fullerenedream",
+    "Description": "Evokes the glow of fluorescent pigments under ultraviolet light. https://github.com/fullerenedream/sublime-themes/blob/master/FluoroMachine.tmTheme"
+},
+{
+    "Title": "Another Kolor (Dark)",
+    "FileName": "Another_Kolor_Dark.tmTheme",
+    "Author": "danyadsmith",
+    "Description": "A dark theme inspired by Kolor for Espresso 2. https://github.com/danyadsmith/AnotherKolor/"
+},
+{
+    "Title": "Another Kolor (Light)",
+    "FileName": "Another_Kolor_Light.tmTheme",
+    "Author": "danyadsmith",
+    "Description": "A light theme inspired by Kolor for Espresso 2. https://github.com/danyadsmith/AnotherKolor/"
+},
+{
+    "Title": "Dark Korokai",
+    "FileName": "DarkKorokai.tmTheme",
+    "Author": "WhosMyName",
+    "Description": "A darker theme inspired by Monokai for Sublime, VSCode and others. Black Background and a Striking Color Scheme. https://github.com/WhosMyName/Dark-Korokai"
+},
+{
+    "Title": "Cozy",
+    "FileName": "Cozy.tmTheme",
+    "Author": "zchen9",
+    "Description": "A custom editor theme with colorful colors. https://github.com/zchen9/sublime-color-scheme"
+},
+{
+    "Title": "LightBlue",
+    "FileName": "LightBlue.tmTheme",
+    "Author": "svencicky",
+    "Description": "A simple light blue theme. https://github.com/svencicky/sublime"
+},
+{
+    "Title": "Gruvbox-N",
+    "FileName": "Gruvbox-N.tmTheme",
+    "Author": "Nicola Peduzzi",
+    "Description": "A Gruvbox inspired theme with a retro look, pastel colors."
+},
+{
+    "Title": "Zero Dark Matrix",
+    "FileName": "ZeroDarkMatrix.tmTheme",
+    "Author": "Maurice Cruz",
+    "Description": "Zero Dark Matrix for SublimeText. https://gist.github.com/mauricecruz/9e0501a34ec1382fb509"
 }
 ]

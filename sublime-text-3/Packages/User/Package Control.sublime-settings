@@ -7,6 +7,7 @@
 	[
 		"AlignTab",
 		"All Autocomplete",
+		"Android",
 		"AutoAligner",
 		"AutoFileName",
 		"BracketHighlighter",
@@ -21,6 +22,7 @@
 		"Gutter Color",
 		"Inc-Dec-Value",
 		"Jedi - Python autocompletion",
+		"Kotlin",
 		"Markdown Preview",
 		"Material Theme",
 		"NASM x86 Assembly",

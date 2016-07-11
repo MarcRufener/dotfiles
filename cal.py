@@ -2,6 +2,7 @@
 
 import os
 import subprocess
+import sys
 
 # Colors
 blue  = "4"
@@ -21,10 +22,19 @@ def color(text, clr):
   echo(text)
   clearcolor()
 
-def main():
-  cal   = run(["cal"]).splitlines()
-  dayow = run(["date", "+%a"])[:2]
-  date  = run("date").split(" ")[2]
+def main(format):
+  dayow       = run(["date", "+%a"])[:2]
+  current_day = "none"
+  
+  if len(format) == 3:
+    cal   = run(["cal", format[1], format[2]]).splitlines()
+  elif len(format) == 2:
+    current_year = run(["date", "+%Y"])[:4]
+    cal   = run(["cal", format[1], current_year]).splitlines()
+  else:
+    current_day = run("date").split(" ")[2]
+    cal   = run(["cal"]).splitlines()
+
   month, year = list(filter(None, cal[0].split(" ")))
 
   print()
@@ -34,20 +44,23 @@ def main():
   color(year, blue)
   print()
 
-  before, after = cal[1].split(dayow)
-  color(before, blue)
-  color(dayow,  green)
-  color(after,  blue)
+  if current_day != "none":
+    before, after = cal[1].split(dayow)
+    color(before, blue)
+    color(dayow,  green)
+    color(after,  blue)
+  else:
+    color(cal[1], blue)
   print()
 
   for e in cal[2:]:
-    if date not in e: print(e)
+    if current_day not in e: print(e)
     else:
-      days_before, days_after = e.split(date)
+      days_before, days_after = e.split(current_day)
       echo(days_before)
-      color(date,  green)
+      color(current_day,  green)
       echo(days_after)
       print()
 
 if __name__ == '__main__':
-  main()
+  main(sys.argv)

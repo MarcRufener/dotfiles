@@ -25,6 +25,8 @@ alias cp='cp -i'
 alias df='df -h'
 alias free='free -hm'
 alias grep='grep --colour=always'
+alias uptime='uptime -p'
+alias cal='./dotfiles/cal.py'
 alias rm='rm -rf'
 alias unlock='sudo rm /var/lib/pacman/db.lck'
 alias feh='feh -q -g 1880x980 --scale-down --auto-zoom'
@@ -60,7 +62,6 @@ alias wiki='wiki-search' # arch-wiki-lite
 alias calc='python -c "print(eval(input()))"'
 
 alias nvidia='vblank_mode=0 optirun -b primus'
-alias lol='nvidia /usr/share/playonlinux/playonlinux --run "League of Legends"'
 alias hs='/usr/share/playonlinux/playonlinux --run "Hearthstone"'
 alias poe='nvidia /usr/share/playonlinux/playonlinux --run "Path of Exile"'
 alias wow='nvidia wine ~/Downloads/WoW/wow.exe'
@@ -107,10 +108,12 @@ key[Home]=${terminfo[khome]}
 key[End]=${terminfo[kend]}
 key[PageUp]=${terminfo[kpp]}
 key[PageDown]=${terminfo[knp]}
+
 [[ -n "${key[Home]}"     ]]  && bindkey  "${key[Home]}"     beginning-of-line
 [[ -n "${key[End]}"      ]]  && bindkey  "${key[End]}"      end-of-line
 [[ -n "${key[PageUp]}"   ]]  && bindkey  "${key[PageUp]}"   beginning-of-buffer-or-history
 [[ -n "${key[PageDown]}" ]]  && bindkey  "${key[PageDown]}" end-of-buffer-or-history
+
 if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
     function zle-line-init () {
         printf '%s' "${terminfo[smkx]}"

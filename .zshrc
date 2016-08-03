@@ -60,15 +60,15 @@ alias acode='~/Documents/Android/'
 alias g='googler '
 alias wiki='wiki-search' # arch-wiki-lite
 alias calc='python -c "print(eval(input()))"'
-
+alias hdmi='xrandr --output VGA1 --auto --output HDMI1 --auto'
 alias nvidia='vblank_mode=0 optirun -b primus'
 alias hs='/usr/share/playonlinux/playonlinux --run "Hearthstone"'
 alias poe='nvidia /usr/share/playonlinux/playonlinux --run "Path of Exile"'
 alias wow='nvidia wine ~/Downloads/WoW/wow.exe'
 
 bindkey '\e[3~' delete-char  # del
-bindkey ';5D' backward-word  # ctrl+left
-bindkey ';5C' forward-word   # ctrl+right
+bindkey '5D' backward-word  # ctrl+left
+bindkey '5C' forward-word   # ctrl+right
 
 # extract <file>
 ex () {
@@ -126,6 +126,7 @@ if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
 fi
 
 local gitprompt='$(~/dotfiles/gitprompt.py)'
+PATH=$PATH:~/.cabal/bin
 export EDITOR="subl3"
 export PROMPT="%{$fg_bold[blue]%}% %~${gitprompt} %{$fg[white]%}% $ %{$reset_color%}%u"
 byobu; clear;

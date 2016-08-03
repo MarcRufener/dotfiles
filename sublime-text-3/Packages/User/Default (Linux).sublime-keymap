@@ -10,6 +10,10 @@
 		]
 	},
 
+	// Send line to REPL
+
+	{ "keys": ["shift+enter"], "command": "repl_transfer_current", "args": {"scope": "lines"}},
+
 	// Sidebar
 	{ "keys": ["ctrl+\\"], "command": "toggle_side_bar" },
 

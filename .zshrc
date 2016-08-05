@@ -13,10 +13,10 @@ compinit
 eval $(dircolors ~/.dircolors)
 autoload -U pick-web-browser
 
-alias -s {go,txt,cfg,c,cpp,rb,asm,nim,conf}=subl3
-alias -s {avi,mpeg,mpg,mov,m2v}=mplayer
+alias -s {go,txt,cfg,c,cpp,rb,asm,nim,conf,d}=subl3
+alias -s {avi,mpeg,mpg,mov,m2v}=mpv
 alias -s {html,htm}=chromium
-alias -s {png,jpg,gif,svg}=viewnior
+alias -s {png,jpg,gif,svg}=feh
 
 alias ls='ls --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias ll='ls -lah --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
@@ -57,7 +57,8 @@ alias pycode='~/Documents/Python/'
 alias dcode='~/Documents/D/'
 alias acode='~/Documents/Android/'
 
-alias g='googler '
+alias edit='subl3'
+alias g='googler'
 alias wiki='wiki-search' # arch-wiki-lite
 alias calc='python -c "print(eval(input()))"'
 alias hdmi='xrandr --output VGA1 --auto --output HDMI1 --auto'

@@ -96,7 +96,7 @@ def battery():
   return icon + time
 
 def sysinfo():
-  return "%s  %s%s%s" % (getlayout(), volume(), wifi(), battery())
+  return getlayout() + "  " + volume() + wifi() + battery()
 
 def stats():
   f         = open(".toggle", "r")

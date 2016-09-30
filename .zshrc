@@ -2,7 +2,7 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 
-setopt autocd extendedglob nomatch notify correctall promptsubst
+setopt autocd extendedglob nomatch notify correctall promptsubst interactivecomments
 unsetopt appendhistory beep
 autoload -U colors compinit
 colors 
@@ -58,6 +58,7 @@ alias dcode='~/Documents/D/'
 alias acode='~/Documents/Android/'
 
 alias edit='subl3'
+alias ping='mtr'
 alias g='googler'
 alias wiki='wiki-search' # arch-wiki-lite
 alias calc='python -c "print(eval(input()))"'
@@ -91,6 +92,17 @@ ex () {
   else
     echo "'$1' is not a valid file"
   fi
+}
+
+man() {
+  env \
+    LESS_TERMCAP_md=$'\e[1;36m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[1;40;92m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[1;32m' \
+      man "$@"
 }
 
 sudo-command-line() {

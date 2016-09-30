@@ -38,16 +38,16 @@ def windows():
   deskn  = -1
   names  = desknames()
   status = run(["bspc", "wm", "-g"])
-  wins   = [0, 0, 0, 0, 0, 0]
+  winds   = [0, 0, 0, 0, 0, 0]
   selec  = 0
 
   for i, e in enumerate(status.split(":")):
     if e[0] == "O":
       selec = i-1
-      wins[i-1] = 1
+      winds[i-1] = 1
     if e[0] == "F": selec = i-1
-    if e[0] == "o": wins[i-1] = 1
-  return selec, wins
+    if e[0] == "o": winds[i-1] = 1
+  return selec, winds
 
 def deskbar():
   selected, winds = windows()
@@ -69,9 +69,9 @@ def volume():
   return VOLUME + value + "%  "
 
 def wifi():
-  raw = run(["iwconfig"]).splitlines()[0][33:-3]
+  raw = run(["iwconfig"]).splitlines()[0].split(":")[1][1:]
   if "ff" in raw: return ""
-  return WIFI + " " + raw + "  "
+  return WIFI + " " + raw[:len(raw)-3:] + "  "
 
 def battery():
   raw     = run(["acpi"])[11:-1]
@@ -96,12 +96,12 @@ def battery():
   return icon + time
 
 def sysinfo():
-  return "%s  %s%s%s" % (getlayout(), volume(), wifi(), battery())
+  return getlayout() + "  " + volume() + wifi() + battery()
 
 def stats():
   f         = open(".toggle", "r")
   state     = f.read()[0]
-  if state == "1":
+  if state == "1": 
     space   = "  "
     offset  = " " * 30
     rawmem  = run(["free", "-hm"]).splitlines()[1]
@@ -112,7 +112,7 @@ def stats():
     cpu     = cpu // 4
     rawtemp = run("sensors").splitlines()[2:3][0]
     temp    = rawtemp[rawtemp.find("+")+1:rawtemp.find(".")]
-    return "mem:" + space + str(mem) + space + "cpu:" + space + str(cpu) + "%" + space + "t:" + space + temp + "°" + offset
+    return "     mem:" + space + str(mem) + space + "cpu:" + space + str(cpu) + "%" + space + "t:" + space + temp + "°" + offset
   else: return ""
 
 def getlayout():

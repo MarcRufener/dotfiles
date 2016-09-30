@@ -45,7 +45,8 @@ xset s off
 
 feh --bg-scale ~/Pictures/bg.png &
 ~/./.reader.sh | lemonbar -f "fontawesome:size=18" -f "Cantarell:size=14" -g 1900x35+10+8 -p -u 4 &
-~/./.lemon.py &
 sxhkd -f 100 &
+~/./.lemon.py &
+spectrumyzer &
 setxkbmap -option caps:none &
 compton &

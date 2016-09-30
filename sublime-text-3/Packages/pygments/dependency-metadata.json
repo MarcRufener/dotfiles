@@ -1,1 +1,1 @@
-{"description": "Python pygments module", "url": "https://github.com/packagecontrol/pygments/issues", "platforms": ["*"], "version": "2.0.2", "sublime_text": "*"}
+{"sublime_text": "*", "version": "2.0.2", "description": "Python pygments module", "platforms": ["*"], "url": "https://github.com/packagecontrol/pygments/issues"}

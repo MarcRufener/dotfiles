@@ -1,0 +1,9 @@
+{
+    "debug": false,
+    "ssh_configs": {
+        "MOP": {
+            "address": "52.57.26.60",
+            "username": "depot"
+        },
+    }
+}

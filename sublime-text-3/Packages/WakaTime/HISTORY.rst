@@ -3,6 +3,25 @@ History
 -------
 
 
+7.0.11 (2016-09-23)
+++++++++++++++++++
+
+- Handle UnicodeDecodeError when when logging. Related to #68.
+
+
+7.0.10 (2016-09-22)
+++++++++++++++++++
+
+- Handle UnicodeDecodeError when looking for python. Fixes #68.
+- Upgrade wakatime-cli to v6.0.9.
+
+
+7.0.9 (2016-09-02)
+++++++++++++++++++
+
+- Upgrade wakatime-cli to v6.0.8.
+
+
 7.0.8 (2016-07-21)
 ++++++++++++++++++
 

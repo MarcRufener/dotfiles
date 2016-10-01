@@ -32,7 +32,7 @@ def main(format):
     current_year = run(["date", "+%Y"])[:4]
     cal   = run(["cal", format[1], current_year]).splitlines()
   else:
-    current_day = run("date").split(" ")[2]
+    current_day = run("date").split(" ")[3]
     cal   = run(["cal"]).splitlines()
 
   month, year = list(filter(None, cal[0].split(" ")))
@@ -53,9 +53,11 @@ def main(format):
     color(cal[1], blue)
   print()
 
+  flag = False
   for e in cal[2:]:
-    if current_day not in e: print(e)
-    else:
+    if flag or current_day not in e: print(e)
+    elif not flag:
+      flag = True
       days_before, days_after = e.split(current_day)
       echo(days_before)
       color(current_day,  green)

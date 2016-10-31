@@ -56,6 +56,7 @@ alias dotfiles='~/dotfiles/'
 alias pycode='~/Documents/Python/'
 alias dcode='~/Documents/D/'
 alias acode='~/Documents/Android/'
+alias mac='echo 24:FD:52:C1:73:A7'
 
 alias edit='subl3'
 alias ping='mtr'

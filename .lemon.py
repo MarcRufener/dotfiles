@@ -21,8 +21,9 @@ B_FULL     = ""   # 100%
 WIRED      = ""
 
 # ICONS
-VOLUME  = ""
-WIFI    = ""
+VOLUME    = ""
+WIFI      = ""
+desknames = ["", "", "", "", "", ""]
 
 def run(arg):
   return subprocess.Popen(arg, stdout=subprocess.PIPE).stdout.read().decode(encoding="UTF-8")
@@ -31,12 +32,8 @@ def get_time():
   raw = run("date")[:15]
   return raw[:9] + "," + raw[9:]
 
-def desknames():
-  return run(["bspc", "query", "-D"]).replace("\n", "")
-
 def windows():
   deskn  = -1
-  names  = desknames()
   status = run(["bspc", "wm", "-g"])
   winds   = [0, 0, 0, 0, 0, 0]
   selec  = 0
@@ -53,7 +50,7 @@ def deskbar():
   selected, winds = windows()
   bar = ""
   if selected == 0: bar = SELECTED + bar
-  for num, deskname in enumerate(desknames()):
+  for num, deskname in enumerate(desknames):
     if winds[num] == 1:
       if num == selected: bar += SELECTED + "   " + WHITE + deskname + "   " + BG_BLACK
       else: bar += "   " + WHITE + deskname + "   "

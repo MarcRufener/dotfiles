@@ -61,7 +61,7 @@ alt + {a,s,w,d}
 	bspc node focused -f {west,south,north,east}
 
 alt + Tab
-	bspc node focused -f next
+	bspc node focused -f next.local
 
 super + shift + {1-7}
 	bspc node focused -d ^{1-7}

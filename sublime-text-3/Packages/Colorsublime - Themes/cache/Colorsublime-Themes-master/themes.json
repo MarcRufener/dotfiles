@@ -1,5 +1,23 @@
 [
 {
+    "Title": "Adventure Time",
+    "FileName": "Adventure_Time.tmTheme",
+    "Author": "Kyle Wilcox",
+    "Description": "An adventure time based theme for sublime"
+},
+{
+    "Title": "Kary Foundation - Light",
+    "FileName": "karyfoundation-light.tmTheme",
+    "Author": "Kary Foundation",
+    "Description": "The candy theme that makes your code a rainbow of joy!"
+},
+{
+    "Title": "Kary Foundation - Dark",
+    "FileName": "karyfoundation-dark.tmTheme",
+    "Author": "Kary Foundation",
+    "Description": "The candy theme that makes your code a rainbow of joy!"
+},
+{
     "Title": "Neon Dark",
     "FileName": "NeonDark.tmTheme",
     "Author": "Jack Doyle",
@@ -166,6 +184,11 @@
     "Author": "Nhat Nguyen",
     "Description": "Dark and easy on the eyes theme"
 }, {
+    "Title": "BlockNinja",
+    "FileName": "blockninja.tmTheme",
+    "Author": "Alex Dunmow",
+    "Description": "Dark theme, with blues & purples"
+}, {
     "Title": "Flatland Dark",
     "FileName": "Flatland_Dark.tmTheme",
     "Author": "Pixel Lab",
@@ -250,6 +273,11 @@
     "FileName": "Blackboard.tmTheme",
     "Author": "Blackboard",
     "Description": ""
+}, {
+    "Title": "BlackRain",
+    "FileName": "BlackRain.tmTheme",
+    "Author": "Ed Heltze4l - Ginfuru",
+    "Description": "A Sublime Text color scheme that is bright and dark"
 }, {
     "Title": "BlueDawn",
     "FileName": "BlueDawn.tmTheme",
@@ -665,6 +693,11 @@
     "FileName": "NetBeans.tmTheme",
     "Author": "",
     "Description": ""
+}, {
+    "Title": "North Pole",
+	"FileName": "NorthPole.tmTheme",
+	"Author": "Alvaro Carmona",
+	"Description": "This is an excellent and original theme, inspired by the frozen north polar passage and tundra"
 }, {
     "Title": "Oblivion",
     "FileName": "Oblivion.tmTheme",
@@ -1146,10 +1179,15 @@
     "Author": "José F. Romaniello",
     "Description": "Dark theme inspired by Obsidian"
 }, {
-    "Title": "Chelevra",
-    "FileName": "Chelevra.tmTheme",
+    "Title": "Chelevra Ayu",
+    "FileName": "Chelevra-Ayu.tmTheme",
     "Author": "Jonas Hermsmeier",
-    "Description": "Dark, minimal theme (perfect fit for Spacegray UI theme)"
+    "Description": "Dark, minimal theme (perfect fit for Ayu UI theme)"
+}, {
+    "Title": "Chelevra Material",
+    "FileName": "Chelevra-Material.tmTheme",
+    "Author": "Jonas Hermsmeier",
+    "Description": "Dark, minimal theme (perfect fit for Material UI theme)"
 }, {
     "Title": "Monokai Aurora",
     "FileName": "Monokai-Aurora.tmTheme",
@@ -1307,6 +1345,11 @@
     "FileName": "slate.tmTheme",
     "Author": "Dayle Rees.",
     "Description": ""
+}, {
+    "Title": "Those Lights",
+    "FileName": "those_lights.tmTheme",
+    "Author": "Ankush Thakur",
+    "Description": "A graceful, soothing dark color scheme for those seeking balance in colors"
 }, {
     "Title": "super",
     "FileName": "super.tmTheme",
@@ -1657,6 +1700,12 @@
     "Description": "Zero Dark Matrix for SublimeText. https://gist.github.com/mauricecruz/9e0501a34ec1382fb509"
 },
 {
+    "Title": "Angular-io-Code",
+    "FileName": "Angular-io-Code.tmTheme",
+    "Author": "Ivo Stratev",
+    "Description": "Angular.io inspired Color Theme"
+},
+{
     "Title": "EditPlus",
     "FileName": "EditPlus.tmTheme",
     "Author": "George Stockfisch, orig. auth Kobzarev Mikhail ",
@@ -1667,5 +1716,17 @@
     "FileName": "mutedrainbow_sky.tmTheme",
     "Author": "lxzdxmxn",
     "Description": ""
+},
+{
+    "Title": "Turn Off Syntax Highlighting",
+    "FileName": "Turn-Off-Syntax-Highlighting.tmTheme",
+    "Author": "maxpleaner",
+    "Description": "Super minimal: grey on black with yellow cursor and only grey outline for selections"
+},
+{
+    "Title": "Minteresting",
+    "FileName": "Minteresting.tmTheme",
+    "Author": "Dayton Nolan",
+    "Description": "A minty theme that's easy on the eyes."
 }
 ]

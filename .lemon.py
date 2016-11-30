@@ -33,11 +33,10 @@ def get_time():
   return raw[:9] + "," + raw[9:]
 
 def windows():
-  deskn  = -1
-  status = run(["bspc", "wm", "-g"])
+  deskn   = -1
+  status  = run(["bspc", "wm", "-g"])
   winds   = [0, 0, 0, 0, 0, 0]
-  selec  = 0
-
+  selec   = 0
   for i, e in enumerate(status.split(":")):
     if e[0] == "O":
       selec = i-1
